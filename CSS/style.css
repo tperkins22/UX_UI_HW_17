@@ -1,17 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
 
-*{
-margin: 0;
-padding: 0;
-}
-
-body{
+body {
     background:#F6F6F6;
     font-family: 'Lato', sans-serif;
 
 }
-.header{
+.header {
     width: 100%;
     height: 90px;
     background: #242539;
@@ -23,16 +17,16 @@ body{
 
 
 
-ul{
+ul {
     list-style: none;
     width: 600px;
     color:#9c7ce2;
     margin: 0 auto;
     
 }
-ul li{
+ul li {
     width: 110px;
-    height:60px;
+    height: 60px;
     float: left;
     line-height: 90px;
     text-align: center;
@@ -45,10 +39,10 @@ ul li{
 
     
 
-ul li.active{
+ul li.active {
     background: white;
 }
-ul li:hover{
+ul li:hover {
     background: white;
 } 
 h1 {
@@ -58,6 +52,8 @@ h1 {
     margin-top: 26px;
     margin-bottom:25px;
     text-align: center;
+    font-weight: 700
+    px;
 }
 
 h2 {
@@ -67,6 +63,7 @@ h2 {
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
+    font-weight: 450;
     
 }    
 .content{
@@ -78,6 +75,7 @@ h3 {
     padding-top: 15px;
     padding-left: 15px;
     font-size: 22px;
+    font-weight: 400;
 
 }
 
@@ -85,9 +83,9 @@ h3 {
     background-color:#9c7ce2;
     border:#242539
     text-align: center;
-    font-size: 38px;
+    font-size: 24px;
     cursor: pointer;
-    padding: 25px;
+    padding: 12px;
     float: center;
     border-radius: 12px;
 }
